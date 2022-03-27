@@ -1,6 +1,6 @@
 {
-  "name": "lilith-config",
-  "version": "1.0.0",
+  "name": "lilith-cloud-config",
+  "version": "1.0.0-alpha.1",
   "description": "",
   "main": "index.js",
   "typings": "index.d.ts",
