@@ -47,6 +47,9 @@ export declare interface LilithConfig {
             delay: number
         }
     }
+    lunar: {
+        spoof: boolean
+    }
     queuestats: {
         gamemodes: {
             duels: {

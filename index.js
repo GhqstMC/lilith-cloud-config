@@ -12,7 +12,7 @@ module.exports = {
                 forge: true
         },
         quicklobby: {
-            enabled: true,
+            enabled: false,
                 duels: true,
                 bedwars: false,
                 skywars: false
@@ -42,6 +42,9 @@ module.exports = {
             enabled: false,
             delay: 3000
         }
+    },
+    lunar: {
+        spoof: false
     },
     queuestats: {
         gamemodes: {
