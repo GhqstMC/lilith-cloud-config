@@ -1,29 +1,29 @@
 module.exports = {
     general: {
         apiKey: '',
-            bypass: {
+        bypass: {
             enabled: false,
-                lunar: {
+            lunar: {
                 disabled: false,
-                    cheats: false,
-                    hitreg: false
+                cheats: false,
+                hitreg: false
             },
             badlion: false,
-                forge: true
+            forge: true
         },
         quicklobby: {
             enabled: false,
-                duels: true,
-                bedwars: false,
-                skywars: false
+            duels: true,
+            bedwars: false,
+            skywars: false
         },
         proxy: {
             remoteIp: 'mc.hypixel.net',
-                remotePort: 25565,
-                localIp: '127.0.0.1',
-                localPort: 25565,
-                localMotd: `Lilith 1.0 Alpha`,
-                logChatMessages: false
+            remotePort: 25565,
+            localIp: '127.0.0.1',
+            localPort: 25565,
+            localMotd: `Lilith 1.0 Alpha`,
+            logChatMessages: false
         }
     },
     autogg: {
@@ -50,175 +50,123 @@ module.exports = {
         gamemodes: {
             duels: {
                 enabled: true,
-                    overall: false,
-                    modesOverall: true,
-                    showOwnStats: false,
-                    showPartyStats: false,
-                    deobfuscation: {
+                overall: false,
+                modesOverall: true,
+                showOwnStats: false,
+                showPartyStats: false,
+                deobfuscation: {
                     chat: true,
-                        nametags: true,
-                        ranks: true
+                    nametags: true,
+                    ranks: true
                 }
             },
             bedwars: {
                 enabled: false,
-                    overall: true,
-                    autoWho: false,
-                    spaceBeforeStar: false
+                overall: true,
+                autoWho: false,
+                spaceBeforeStar: false,
+                showStatsIngame: false
             },
             skywars: {
                 enabled: false,
-                    overall: true,
-                    autoWho: false,
-                    spaceBeforeStar: false
+                overall: true,
+                autoWho: false,
+                spaceBeforeStar: false,
+                showStatsIngame: false
             }
         }
     },
     autododge: {
         duels: {
             enabled: false,
-                level: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+            level: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
             wins: {
-                enabled: true,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wins == 10'
             },
             losses: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'losses == 10'
             },
             wlr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wlr == 10'
             },
             kdr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'kdr == 10'
             },
             melee: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'melee == 10'
             },
             ranged: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'ranged == 10'
             },
             ws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'ws == 10'
             },
             bws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
             maps: []
         },
         bedwars: {
             enabled: false,
-                level: {
-                enabled: true,
-                    lowest: 0,
-                    highest: 0
+            level: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
             star: {
-                enabled: true,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'star == 10'
             },
             wins: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wins == 10'
             },
             losses: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'losses == 10'
             },
             wlr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wlr == 10'
             },
             fkdr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'kdr == 10'
             },
             ws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'ws == 10'
             },
             bws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
             maps: []
         },
         skywars: {
             enabled: false,
-                level: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+            level: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
             star: {
-                enabled: true,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'star == 10'
             },
             wins: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wins == 10'
             },
             losses: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'losses == 10'
             },
             wlr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wlr == 10'
             },
             kdr: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'kdr == 10'
             },
             melee: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'melee == 10'
             },
             ranged: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'ranged == 10'
             },
             ws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'ws == 10'
             },
             bws: {
-                enabled: false,
-                    lowest: 0,
-                    highest: 0
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
             maps: []
         },

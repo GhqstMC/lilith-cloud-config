@@ -2,6 +2,16 @@ declare const config: LilithConfig
 
 export default config
 
+interface NumericAutododgeOption {
+    enabled: boolean
+    lowestEnabled: boolean
+    lowest: number
+    highestEnabled: boolean
+    highest: number
+    conditionEnabled: boolean
+    condition: string
+}
+
 export declare interface LilithConfig {
     general: {
         apiKey: string
@@ -69,162 +79,62 @@ export declare interface LilithConfig {
                 overall: boolean
                 spaceBeforeStar: boolean
                 autoWho: boolean
+                showStatsIngame: boolean
             },
             skywars: {
                 enabled: boolean
                 overall: boolean
                 spaceBeforeStar: boolean
                 autoWho: boolean
+                showStatsIngame: boolean
             }
         }
     }
     autododge: {
         duels: {
             enabled: boolean
+            requeue: boolean
+            noStats: boolean
             maps: []
-            level: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wins: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            losses: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wlr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            kdr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            melee: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            ranged: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            ws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            bws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
+            level: NumericAutododgeOption
+            wins: NumericAutododgeOption
+            losses: NumericAutododgeOption
+            wlr: NumericAutododgeOption
+            kdr: NumericAutododgeOption
+            melee: NumericAutododgeOption
+            ranged: NumericAutododgeOption
+            ws: NumericAutododgeOption
+            bws: NumericAutododgeOption
         }
         bedwars: {
             enabled: boolean
+            requeue: boolean
+            noStats: boolean
             maps: []
-            level: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            star: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            fkdr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wins: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            losses: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wlr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            ws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            bws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
+            level: NumericAutododgeOption
+            star: NumericAutododgeOption
+            fkdr: NumericAutododgeOption
+            wins: NumericAutododgeOption
+            losses: NumericAutododgeOption
+            wlr: NumericAutododgeOption
+            ws: NumericAutododgeOption
+            bws: NumericAutododgeOption
         }
         skywars: {
             enabled: boolean
+            requeue: boolean
+            noStats: boolean
             maps: []
-            level: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            star: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wins: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            losses: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            wlr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            kdr: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            melee: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            ranged: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            ws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
-            bws: {
-                enabled: boolean
-                lowest: number
-                highest: number
-            }
+            level: NumericAutododgeOption
+            star: NumericAutododgeOption
+            wins: NumericAutododgeOption
+            losses: NumericAutododgeOption
+            wlr: NumericAutododgeOption
+            kdr: NumericAutododgeOption
+            melee: NumericAutododgeOption
+            ranged: NumericAutododgeOption
+            ws: NumericAutododgeOption
+            bws: NumericAutododgeOption
         }
     }
 }
