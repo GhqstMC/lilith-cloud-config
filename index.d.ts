@@ -12,6 +12,28 @@ interface NumericAutododgeOption {
     condition: string
 }
 
+interface MapsAutododgeOption {
+    whitelist: {
+        enabled: boolean
+        maps: string
+    }
+    blacklist: {
+        enabled: boolean
+        maps: string
+    }
+}
+
+interface PlayersAutododgeOption {
+    whitelist: {
+        enabled: boolean
+        players: string
+    }
+    blacklist: {
+        enabled: boolean
+        players: string
+    }
+}
+
 export declare interface LilithConfig {
     general: {
         apiKey: string
@@ -96,6 +118,8 @@ export declare interface LilithConfig {
             requeue: boolean
             noStats: boolean
             maps: []
+            mapsNew: MapsAutododgeOption
+            players: PlayersAutododgeOption
             level: NumericAutododgeOption
             wins: NumericAutododgeOption
             losses: NumericAutododgeOption
@@ -111,6 +135,8 @@ export declare interface LilithConfig {
             requeue: boolean
             noStats: boolean
             maps: []
+            mapsNew: MapsAutododgeOption
+            players: PlayersAutododgeOption
             level: NumericAutododgeOption
             star: NumericAutododgeOption
             fkdr: NumericAutododgeOption
@@ -125,6 +151,8 @@ export declare interface LilithConfig {
             requeue: boolean
             noStats: boolean
             maps: []
+            mapsNew: MapsAutododgeOption
+            players: PlayersAutododgeOption
             level: NumericAutododgeOption
             star: NumericAutododgeOption
             wins: NumericAutododgeOption

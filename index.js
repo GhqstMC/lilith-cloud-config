@@ -106,7 +106,27 @@ module.exports = {
             bws: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
-            maps: []
+            maps: [],
+            mapsNew: {
+                whitelist: {
+                    enabled: false,
+                    maps: ""
+                },
+                blacklist: {
+                    enabled: false,
+                    maps: ""
+                }
+            },
+            players: {
+                whitelist: {
+                    enabled: false,
+                    players: ""
+                },
+                blacklist: {
+                    enabled: false,
+                    players: ""
+                }
+            }
         },
         bedwars: {
             enabled: false,
@@ -134,7 +154,27 @@ module.exports = {
             bws: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
-            maps: []
+            maps: [],
+            mapsNew: {
+                whitelist: {
+                    enabled: false,
+                    maps: []
+                },
+                blacklist: {
+                    enabled: false,
+                    maps: []
+                }
+            },
+            players: {
+                whitelist: {
+                    enabled: false,
+                    players: []
+                },
+                blacklist: {
+                    enabled: false,
+                    players: []
+                }
+            }
         },
         skywars: {
             enabled: false,
@@ -168,7 +208,27 @@ module.exports = {
             bws: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
-            maps: []
+            maps: [],
+            mapsNew: {
+                whitelist: {
+                    enabled: false,
+                    maps: []
+                },
+                blacklist: {
+                    enabled: false,
+                    maps: []
+                }
+            },
+            players: {
+                whitelist: {
+                    enabled: false,
+                    players: []
+                },
+                blacklist: {
+                    enabled: false,
+                    players: []
+                }
+            }
         },
     }
 }
