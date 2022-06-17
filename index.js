@@ -63,6 +63,8 @@ module.exports = {
             bedwars: {
                 enabled: false,
                 overall: true,
+                showOwnStats: false,
+                showPartyStats: false,
                 autoWho: false,
                 spaceBeforeStar: false,
                 showStatsIngame: false
@@ -73,6 +75,14 @@ module.exports = {
                 autoWho: false,
                 spaceBeforeStar: false,
                 showStatsIngame: false
+            },
+            wool: {
+                enabled: false,
+                chatEnabled: false,
+                showOwnStats: false,
+                showPartyStats: false,
+                spaceBeforeStar: false,
+                showStatsIngame: true
             }
         }
     },
@@ -209,6 +219,53 @@ module.exports = {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'bws == 10'
             },
             maps: [],
+            mapsNew: {
+                whitelist: {
+                    enabled: false,
+                    maps: []
+                },
+                blacklist: {
+                    enabled: false,
+                    maps: []
+                }
+            },
+            players: {
+                whitelist: {
+                    enabled: false,
+                    players: []
+                },
+                blacklist: {
+                    enabled: false,
+                    players: []
+                }
+            }
+        },
+        wool: {
+            enabled: false,
+            level: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
+            },
+            star: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'star == 10'
+            },
+            wins: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wins == 10'
+            },
+            losses: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'losses == 10'
+            },
+            wlr: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'wlr == 10'
+            },
+            kdr: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'kdr == 10'
+            },
+            games: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'games == 10'
+            },
+            assists: {
+                enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'assists == 10'
+            },
             mapsNew: {
                 whitelist: {
                     enabled: false,

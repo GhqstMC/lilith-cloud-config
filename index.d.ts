@@ -98,7 +98,10 @@ export declare interface LilithConfig {
             },
             bedwars: {
                 enabled: boolean
+                chatEnabled: boolean
                 overall: boolean
+                showOwnStats: boolean
+                showPartyStats: boolean
                 spaceBeforeStar: boolean
                 autoWho: boolean
                 showStatsIngame: boolean
@@ -108,6 +111,14 @@ export declare interface LilithConfig {
                 overall: boolean
                 spaceBeforeStar: boolean
                 autoWho: boolean
+                showStatsIngame: boolean
+            }
+            wool: {
+                enabled: boolean
+                chatEnabled: boolean
+                showOwnStats: boolean
+                showPartyStats: boolean
+                spaceBeforeStar: boolean
                 showStatsIngame: boolean
             }
         }
@@ -163,6 +174,21 @@ export declare interface LilithConfig {
             ranged: NumericAutododgeOption
             ws: NumericAutododgeOption
             bws: NumericAutododgeOption
+        }
+        wool: {
+            enabled: boolean
+            requeue: boolean
+            noStats: boolean
+            mapsNew: MapsAutododgeOption
+            players: PlayersAutododgeOption
+            level: NumericAutododgeOption
+            star: NumericAutododgeOption
+            wins: NumericAutododgeOption
+            losses: NumericAutododgeOption
+            wlr: NumericAutododgeOption
+            kdr: NumericAutododgeOption
+            games: NumericAutododgeOption
+            assists: NumericAutododgeOption
         }
     }
 }
