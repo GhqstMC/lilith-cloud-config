@@ -191,4 +191,7 @@ export declare interface LilithConfig {
             assists: NumericAutododgeOption
         }
     }
+    modloader: {
+        loadMods: () => void
+    }
 }
