@@ -89,6 +89,8 @@ module.exports = {
     autododge: {
         duels: {
             enabled: false,
+            requeue: false,
+            noStats: false,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
@@ -140,6 +142,8 @@ module.exports = {
         },
         bedwars: {
             enabled: false,
+            requeue: false,
+            noStats: false,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
@@ -188,6 +192,8 @@ module.exports = {
         },
         skywars: {
             enabled: false,
+            requeue: false,
+            noStats: false,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
@@ -242,6 +248,8 @@ module.exports = {
         },
         wool: {
             enabled: false,
+            requeue: false,
+            noStats: false,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
