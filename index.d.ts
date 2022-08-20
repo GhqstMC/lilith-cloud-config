@@ -128,6 +128,7 @@ export declare interface LilithConfig {
             enabled: boolean
             requeue: boolean
             noStats: boolean
+            warpParty: boolean
             maps: []
             mapsNew: MapsAutododgeOption
             players: PlayersAutododgeOption
@@ -161,6 +162,7 @@ export declare interface LilithConfig {
             enabled: boolean
             requeue: boolean
             noStats: boolean
+            warpParty: boolean
             maps: []
             mapsNew: MapsAutododgeOption
             players: PlayersAutododgeOption

@@ -91,6 +91,7 @@ module.exports = {
             enabled: false,
             requeue: false,
             noStats: false,
+            warpParty: true,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
@@ -194,6 +195,7 @@ module.exports = {
             enabled: false,
             requeue: false,
             noStats: false,
+            warpParty: true,
             level: {
                 enabled: false, lowestEnabled: false, lowest: 0, highestEnabled: false, highest: 0, conditionEnabled: false, condition: 'level == 10'
             },
