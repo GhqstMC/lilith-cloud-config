@@ -119,6 +119,7 @@ export declare interface LilithConfig {
                 showOwnStats: boolean
                 showPartyStats: boolean
                 spaceBeforeStar: boolean
+                autoWho: boolean
                 showStatsIngame: boolean
             }
         }
