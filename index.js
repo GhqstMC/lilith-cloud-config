@@ -82,6 +82,7 @@ module.exports = {
                 showOwnStats: false,
                 showPartyStats: false,
                 spaceBeforeStar: false,
+                autoWho: false,
                 showStatsIngame: true
             }
         }
