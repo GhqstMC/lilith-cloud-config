@@ -24,6 +24,18 @@ module.exports = {
             localPort: 25565,
             localMotd: `Lilith 1.0 Alpha`,
             logChatMessages: false
+        },
+        ranks: {
+            enabled: true,
+            generalChat: true,
+            partyChat: true,
+            guildChat: true,
+            friendsList: true,
+            partyList: true,
+            guildList: true,
+            lobbyTablist: true,
+            lobbyLeaderboards: true,
+            gameEnd: true
         }
     },
     autogg: {
