@@ -61,6 +61,18 @@ export declare interface LilithConfig {
             localMotd: string
             logChatMessages: boolean
         }
+        ranks: {
+            enabled: boolean
+            generalChat: boolean
+            partyChat: boolean
+            guildChat: boolean
+            friendsList: boolean
+            partyList: boolean
+            guildList: boolean
+            lobbyTablist: boolean
+            lobbyLeaderboards: boolean
+            gameEnd: boolean
+        }
     }
     autogg: {
         enabled: boolean
