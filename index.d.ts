@@ -64,11 +64,15 @@ export declare interface LilithConfig {
         ranks: {
             enabled: boolean
             generalChat: boolean
+            directMessages: boolean
             partyChat: boolean
             guildChat: boolean
+            friendJoin: boolean
+            guildJoin: boolean
             friendsList: boolean
             partyList: boolean
             guildList: boolean
+            lobbyJoin: boolean
             lobbyTablist: boolean
             lobbyLeaderboards: boolean
             gameEnd: boolean
