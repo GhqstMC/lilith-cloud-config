@@ -28,11 +28,15 @@ module.exports = {
         ranks: {
             enabled: true,
             generalChat: true,
+            directMessages: true,
             partyChat: true,
             guildChat: true,
+            friendJoin: true,
+            guildJoin: true,
             friendsList: true,
             partyList: true,
             guildList: true,
+            lobbyJoin: true,
             lobbyTablist: true,
             lobbyLeaderboards: true,
             gameEnd: true
