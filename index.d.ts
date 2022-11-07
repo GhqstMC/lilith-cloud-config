@@ -65,6 +65,7 @@ export declare interface LilithConfig {
             enabled: boolean
             generalChat: boolean
             directMessages: boolean
+            statChecking: boolean
             partyChat: boolean
             guildChat: boolean
             friendJoin: boolean

@@ -29,6 +29,7 @@ module.exports = {
             enabled: true,
             generalChat: true,
             directMessages: true,
+            statChecking: false,
             partyChat: true,
             guildChat: true,
             friendJoin: true,
