@@ -211,4 +211,14 @@ export declare interface LilithConfig {
             assists: NumericAutododgeOption
         }
     }
+    profiles: {
+        [id: string]: {
+            data: {
+                id: string
+                name: string
+                itemId: string
+            }
+            settings: Partial<LilithConfig>
+        }
+    }
 }

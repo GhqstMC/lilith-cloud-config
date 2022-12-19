@@ -1,3 +1,6 @@
+/**
+ * @type LilithConfig
+ */
 module.exports = {
     general: {
         apiKey: '',
@@ -315,5 +318,6 @@ module.exports = {
                 }
             }
         },
-    }
+    },
+    profiles: {}
 }
