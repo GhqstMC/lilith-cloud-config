@@ -218,7 +218,7 @@ export declare interface LilithConfig {
                 name: string
                 itemId: string
             }
-            settings: Partial<LilithConfig>
+            settings: Partial<Omit<LilithConfig, "profiles">>
         }
     }
 }
